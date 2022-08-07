@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: scottishpowertest
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
